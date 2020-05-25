@@ -1,9 +1,9 @@
 {
 	"localhost": {
 		"url": "ws://localhost:7545",
-		"dataAddress": "0xCEE6136e048835c69D256b9bAB7839e3c1f52FBE",
-		"appAddress": "0xB93E295FA9fCc52551003C75780fdd628d58cAD2",
-		"firstAirline": "0x8E515D05Ea8a23DCb5a78f0d1C8cb437851365b7",
+		"dataAddress": "0xAF5759426FaF6f13FE885715f719945982F1147f",
+		"appAddress": "0xDe74b5f04E6e89a2C381CE0007c7793F246647b8",
+		"firstAirline": "0x1b5E17ce522D584512b1DbCe26baaf090D5294fF",
 		"oracleInitialIndex": 11,
 		"oracleLasIndex": 30,
 		"gas": 4700000,

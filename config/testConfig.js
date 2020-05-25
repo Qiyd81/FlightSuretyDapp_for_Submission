@@ -5,7 +5,7 @@ const BigNumber = require('bignumber.js');
 
 var Config = async function(accounts) {
     
-    const owner = accounts[0];
+    // const owner = accounts[0];
     const firstAirline = accounts[1];
     const secondAirline = accounts[2];
     const thirdAirline = accounts[3];
@@ -15,12 +15,12 @@ var Config = async function(accounts) {
     const passengerOne = accounts[7];
     const passengerTwo = accounts[8];
 
-    const flightSuretyData = await FlightSuretyData.new(firstAirline, 'Number One');
+    const flightSuretyData = await FlightSuretyData.new(firstAirline, 'First Airline');
     const flightSuretyApp = await FlightSuretyApp.new(flightSuretyData.address);
 
     
     return {
-        owner: owner,
+        // owner: owner,
         firstAirline: firstAirline,
         secondAirline: secondAirline,
         thirdAirline: thirdAirline,

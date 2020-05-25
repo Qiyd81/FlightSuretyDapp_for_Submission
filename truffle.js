@@ -1,5 +1,6 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+// var mnemonic = "collect cool stomach dinner unfair often galaxy raw future wing cinnamon magic note: this mnemonic is not secure; don't use it on a public blockchain";
+var mnemonic = "collect cool stomach dinner unfair often galaxy raw future wing cinnamon magic note: this mnemonic is not secure; don't use it on a public blockchain";
 
 module.exports = {
   networks: {
@@ -15,7 +16,7 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "^0.4.24"
+      version: "^0.5.16"
     }
   }
 };
